@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doações</title>
+    <link rel="stylesheet" href="/assets/css/cartao.css">
+    <link rel="stylesheet" href="/assets/css/general.css">
+</head>
+
+<body>
+    <div class="box">
+        <img src="http://localhost:8081/assets/img/logo.png" alt="logo" class="logo">
+        <header>
+            <ul>
+                <li><a href="/inicio">Home</a></li>
+                <li><a class="selected_nav">Doações</a></li>
+                <li><a href="/pesquisa">Pets</a></li>
+                <li><a href="/sobrenos">Sobre Nós</a></li>
+                <li><a href="/contato">Contato</a></li>
+                <li><a href="/noticias">Notícias e Dicas</a></li>
+                <div class="nav_buttons">
+                    <a href="/loginUsuario"><button class="login ">Login</button></a>
+                    <a href="/cadastroUsuario"><Button class="cadastro ">Cadastre-se</Button></a>
+                    <a href="/perfil"><button class="perfil">Perfil</button></a>
+                </div>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="pagamento-opc">
+                <a href="/Doacoes/Cartao">
+                    <div class="cartao-opc">
+                        <img src="http://localhost:8081/assets/img/deselected/cartao simbolo deselected.png" alt="" class="card-img">
+                        <p>Cartão</p>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="selected-opc" class="racao-opc">
+                        <img src="http://localhost:8081/assets/img/selected/ração simbolo selected.png" alt="">
+                        <p>Ração</p>
+                    </div>
+                </a>
+            </div>
+            <div class="informacoes-racao">
+                <div class="div-infos">
+                    <h2>Como doar ração?</h2>
+                    <p>Basta nos enviar na nossa caixa postal direta: Vila da Folha, 777, Konoha - SCP </p>
+                    <p>Ou enviar na caixa de alguma das casas de adoção que são nossas parceiras.</p>
+                    <img src="http://localhost:8081/assets/img/logo.png" alt="logo">
+                    <p>A equipe Conectdog agradece!</p>
+                </div>
+
+            </div>
+            <div class="hamburger-menu">
+                <input id="menu__toggle" type="checkbox" />
+                <label class="menu__btn" for="menu__toggle">
+              <span></span>
+            </label>
+
+                <ul class="menu__box">
+                    <li><a class="menu__item" href="/inicio">Home</a></li>
+                    <li><a class="menu__item" href="/Doacoes/Cartao">Doações</a></li>
+                    <li><a class="menu__item" href="/pesquisa">Pets</a></li>
+                    <li><a class="menu__item" href="/sobrenos">Sobre Nós</a></li>
+                    <li><a class="menu__item" href="/contato">Contato</a></li>
+                    <li><a class="menu__item" href="/noticias">Notícias e Dicas</a></li>
+                    <li>
+                        <div class="mob-logo"><img src="http://localhost:8081/assets/img/logo.png" alt="logo"></div>
+                    </li>
+                </ul>
+                <div class="menu_shadow"></div>
+            </div>
+</body>
+
+</html>
